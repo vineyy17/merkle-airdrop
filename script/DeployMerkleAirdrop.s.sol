@@ -7,7 +7,7 @@ import { VineToken } from "../src/VineToken.sol";
 import { console } from "forge-std/console.sol";
 
 contract DeployMerkleAirdrop is Script {
-    bytes32 public ROOT = 0xaa5d581231e596618465a56aa0f5870ba6e20785fe436d5bfb82b08662ccc7c4;
+    bytes32 public ROOT = 0x126ccdb40064d7906f7b2b9e4eee01b53c087dfe50e2802fa5e472ad5dd76d9d;
     // 4 users, 25 vine tokens each
     uint256 public AMOUNT_TO_TRANSFER = 4 * (25 * 1e18);
 
