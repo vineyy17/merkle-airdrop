@@ -15,12 +15,12 @@ contract MerkleAirdropTest is ZkSyncChainChecker, Test {
     address user;
     uint256 userPrivKey;
 
-    bytes32 MERKLE_ROOT = 0xaa5d581231e596618465a56aa0f5870ba6e20785fe436d5bfb82b08662ccc7c4;
+    bytes32 MERKLE_ROOT = 0x126ccdb40064d7906f7b2b9e4eee01b53c087dfe50e2802fa5e472ad5dd76d9d;
     uint256 AMOUNT_TO_CLAIM = (25 * 1e18); // 25.000000
     uint256 AMOUNT_TO_SEND = AMOUNT_TO_CLAIM * 4;
 
     bytes32 proofOne = 0x0fd7c981d39bece61f7499702bf59b3114a90e66b51ba2c53abdf7b62986c00a;
-    bytes32 proofTwo = 0xe5ebd1e1b5a5478a944ecab36a9a954ac3b6b8216875f6524caa7a1d87096576;
+    bytes32 proofTwo = 0x6a84d1e7c87bd2cdcd308e977d8488be0e0922d5ceb026dce7a1c36a98819de0;
     bytes32[] proof = [proofOne, proofTwo];
 
     function setUp() public {
